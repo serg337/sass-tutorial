@@ -5,7 +5,7 @@ function Tables() {
     <section id="tables">
       <div className="container">
         <h1>Tables</h1>
-        <table>
+        <table className="table">
           <caption>Table Caption</caption>
           <thead>
             <tr>

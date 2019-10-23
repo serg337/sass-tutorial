@@ -36,7 +36,7 @@
 
     .item {
         float: left;
-        @include imagegrid(5, 1%);
+        @include imagegrid(3, 2%);
     }
 
     img {
