@@ -43,6 +43,36 @@ function Typography() {
           Reprehenderit esse deserunt laboriosam, nihil architecto recusandae
           quas nam quo placeat, perspiciatis natus. Explicabo.
         </p>
+        <div className="grid">
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+          <div className="item">
+            <img src="http://placehold.it/500x500" alt="thumbnail" />
+          </div>
+        </div>
+
         <ol className="media">
           <li className="item">
             <img src="http://placehold.it/90x90" alt="thumbnail" />
