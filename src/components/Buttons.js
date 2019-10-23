@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../assets/scss/buttons.scss";
-
 function Buttons() {
   return (
     <section id="buttons">

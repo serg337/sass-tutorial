@@ -10,7 +10,7 @@ import Tables from "./components/Tables";
 import Forms from "./components/Forms";
 import Footer from "./components/Footer";
 
-import "./assets/scss/style.scss";
+import "./assets/scss/styles.scss";
 
 function App() {
   return (

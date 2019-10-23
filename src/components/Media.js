@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../assets/scss/media.scss";
-
 function Media() {
   return (
     <section id="media">

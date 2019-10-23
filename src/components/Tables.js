@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../assets/scss/tables.scss";
-
 function Tables() {
   return (
     <section id="tables">

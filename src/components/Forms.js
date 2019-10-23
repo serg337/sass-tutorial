@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../assets/scss/forms.scss";
-
 function Forms() {
   return (
     <section id="forms">

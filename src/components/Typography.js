@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../assets/scss/typography.scss";
-
 function Typography() {
   return (
     <section id="typography">

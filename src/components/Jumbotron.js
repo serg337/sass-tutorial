@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../assets/scss/jumbotron.scss";
-
 function Jumbotron() {
   return (
     <section className="jumbotron" id="jumbotron">

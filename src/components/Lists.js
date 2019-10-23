@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../assets/scss/lists.scss";
-
 function Lists() {
   return (
     <section id="lists">
