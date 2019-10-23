@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <div className="container">
-        <nav>
+      <nav>
+        <div className="container">
           <ul>
             <li>
               <a href="#jumbotron">Jumbotron</a>
@@ -27,12 +27,9 @@ function Footer() {
             <li>
               <a href="#tables">Tables</a>
             </li>
-            <li>
-              <a href="#forms">Forms</a>
-            </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </footer>
   );
 }

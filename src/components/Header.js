@@ -3,8 +3,8 @@ import React from "react";
 function Header() {
   return (
     <header>
-      <div className="container">
-        <nav>
+      <nav>
+        <div className="container">
           <div className="branding">
             <h1>Table of Contents</h1>
           </div>
@@ -27,12 +27,9 @@ function Header() {
             <li>
               <a href="#tables">Tables</a>
             </li>
-            <li>
-              <a href="#forms">Forms</a>
-            </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   );
 }

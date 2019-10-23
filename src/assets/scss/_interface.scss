@@ -41,7 +41,7 @@
 
     img {
         display: block;
-        border-radius: 10px;
+        border-radius: $roundness;
         max-width: 100%;
     }
 }
