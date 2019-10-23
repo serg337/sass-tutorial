@@ -4,20 +4,33 @@
     list-style: none;
 
     .item {
-        margin-bottom: 20px;
-        border-top: 1px dotted $darkblue;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-top: 1px dotted $color-item-border;
         padding-top: 10px;
+
+        //the & is a special selector that can be used to reference the parent of an element
+        &:hover {
+            background: $yellow;
+        }
+
+        &:last-of-type {
+            border-bottom: 1px dotted $color-item-border;
+        }
+
+        @include clearfix;
     }
 
     .head {
         margin: 0;
         padding: 0;
-        color: $red;
+        color: $color-media-head;
         font-size: 2rem;
-    }
 
-    li {
-        display: flex;
+        //this helps identify a contextual class that's sitting inside any other id
+        #typography & {
+            color: $red;
+        }
     }
 
     p {
@@ -26,6 +39,8 @@
     }
 
     img {
+        float: left;
         margin-right: 10px;
     }
+
 }
