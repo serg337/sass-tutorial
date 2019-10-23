@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
 import Typography from "./components/Typography";
 import Buttons from "./components/Buttons";
+import Bridge from "./components/Bridge";
 import Lists from "./components/Lists";
 import Media from "./components/Media";
 import Tables from "./components/Tables";
@@ -19,6 +20,7 @@ function App() {
       <Jumbotron />
       <Typography />
       <Buttons />
+      <Bridge />
       <Lists />
       <Media />
       <Tables />

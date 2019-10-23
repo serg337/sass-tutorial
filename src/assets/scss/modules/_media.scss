@@ -3,20 +3,21 @@
     padding: 0;
     list-style: none;
 
-    $color-item-border: $red;
-    $color-media-head: $blue;
-
     .item {
         margin-bottom: 20px;
-        border-top: 1px dotted $color-item-border;
+        border-top: 1px dotted $darkblue;
         padding-top: 10px;
     }
 
     .head {
         margin: 0;
         padding: 0;
-        color: $color-media-head;
+        color: $red;
         font-size: 2rem;
+    }
+
+    li {
+        display: flex;
     }
 
     p {
@@ -25,8 +26,6 @@
     }
 
     img {
-        float: left;
         margin-right: 10px;
     }
-
 }

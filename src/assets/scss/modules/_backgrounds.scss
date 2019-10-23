@@ -26,7 +26,9 @@
 }
 
 .jumbotron {
-    background: $darkblue;
-    height: 600px;
+    @include backImage($url-water, 600px);
+}
 
+.bridge {
+    @include backImage($url-bridge, 300px, bottom center);
 }
