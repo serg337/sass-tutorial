@@ -1,0 +1,31 @@
+//using % in front of a class, makes this an invisible class
+
+%btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 3px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-family: $font-highlight;
+    user-select: none;
+    color: $color-btn-text;
+}
+
+.btn-default {
+    @extend %btn;
+    background: $color-btn-default;
+}
+
+.btn-hot {
+    @extend %btn;
+    background: $color-btn-hot;
+}
+
+.btn-cool {
+    @extend %btn;
+    background: $color-btn-cool;
+}
