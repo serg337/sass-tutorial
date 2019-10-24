@@ -15,19 +15,22 @@
     color: $color-btn-text;
 }
 
-.btn-default {
-    @extend %btn;
-    background: $color-btn-default;
-}
+//These are lists - where making the buttons similar to a .map function.
+//making the button styles with a loop
+$color-btn-names: 'default',
+'hot',
+'cool';
+$color-btn-values: $color-main,
+$red,
+$blue;
 
-.btn-hot {
-    @extend %btn;
-    background: $color-btn-hot;
-}
+@each $name in $color-btn-names {
+    $i: index($color-btn-names, $name);
 
-.btn-cool {
-    @extend %btn;
-    background: $color-btn-cool;
+    .btn-#{$name} {
+        @extend %btn;
+        background-color: nth($color-btn-values, $i);
+    }
 }
 
 //making the grid with functions
