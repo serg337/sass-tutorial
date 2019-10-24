@@ -33,6 +33,19 @@ $blue;
     }
 }
 
+//We can also use an assotiave array to make this easier instead of using lists.
+$color-btn: (one: $green,
+    two: $yellow,
+    three: $orange, awesome: $purple);
+
+@each $key,
+$value in $color-btn {
+    .btn-#{$key} {
+        @extend %btn;
+        background-color: $value;
+    }
+}
+
 //making the grid with functions
 .grid {
     @include clearfix;
